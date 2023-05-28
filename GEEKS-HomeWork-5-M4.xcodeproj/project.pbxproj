@@ -13,9 +13,16 @@
 		52A6BEA52A21A6A600CF1F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A6BEA32A21A6A600CF1F22 /* Main.storyboard */; };
 		52A6BEA72A21A6A800CF1F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A6BEA62A21A6A800CF1F22 /* Assets.xcassets */; };
 		52A6BEAA2A21A6A800CF1F22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A6BEA82A21A6A800CF1F22 /* LaunchScreen.storyboard */; };
+		52A6BEB52A21A83300CF1F22 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6BEB42A21A83300CF1F22 /* DataViewController.swift */; };
+		52A6BEB82A21AE6F00CF1F22 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6BEB72A21AE6F00CF1F22 /* CustomTableViewCell.swift */; };
+		52A6BEBC2A21B2C800CF1F22 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6BEBB2A21B2C800CF1F22 /* ProductModel.swift */; };
+		52A6BEBF2A21B3ED00CF1F22 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6BEBE2A21B3ED00CF1F22 /* ApiManager.swift */; };
+		B89FE046CFFDE5D10E86E594 /* Pods_GEEKS_HomeWork_5_M4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F53E14B523113A1242E8A8F /* Pods_GEEKS_HomeWork_5_M4.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DBD84B4E18432C308EE5BC2 /* Pods-GEEKS-HomeWork-5-M4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEEKS-HomeWork-5-M4.debug.xcconfig"; path = "Target Support Files/Pods-GEEKS-HomeWork-5-M4/Pods-GEEKS-HomeWork-5-M4.debug.xcconfig"; sourceTree = "<group>"; };
+		3F53E14B523113A1242E8A8F /* Pods_GEEKS_HomeWork_5_M4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GEEKS_HomeWork_5_M4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A6BE9A2A21A6A500CF1F22 /* GEEKS-HomeWork-5-M4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GEEKS-HomeWork-5-M4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A6BE9D2A21A6A600CF1F22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52A6BE9F2A21A6A600CF1F22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		52A6BEA62A21A6A800CF1F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52A6BEA92A21A6A800CF1F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52A6BEAB2A21A6A800CF1F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A6BEB42A21A83300CF1F22 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		52A6BEB72A21AE6F00CF1F22 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		52A6BEBB2A21B2C800CF1F22 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		52A6BEBE2A21B3ED00CF1F22 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		DBBEE3BD9D693ECA6B816C08 /* Pods-GEEKS-HomeWork-5-M4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEEKS-HomeWork-5-M4.release.xcconfig"; path = "Target Support Files/Pods-GEEKS-HomeWork-5-M4/Pods-GEEKS-HomeWork-5-M4.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B89FE046CFFDE5D10E86E594 /* Pods_GEEKS_HomeWork_5_M4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F0416A90867663A5D3B1514 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DBD84B4E18432C308EE5BC2 /* Pods-GEEKS-HomeWork-5-M4.debug.xcconfig */,
+				DBBEE3BD9D693ECA6B816C08 /* Pods-GEEKS-HomeWork-5-M4.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4B477F71EE418697CCD8D341 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F53E14B523113A1242E8A8F /* Pods_GEEKS_HomeWork_5_M4.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		52A6BE912A21A6A500CF1F22 = {
 			isa = PBXGroup;
 			children = (
 				52A6BE9C2A21A6A500CF1F22 /* GEEKS-HomeWork-5-M4 */,
 				52A6BE9B2A21A6A500CF1F22 /* Products */,
+				3F0416A90867663A5D3B1514 /* Pods */,
+				4B477F71EE418697CCD8D341 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +90,49 @@
 			children = (
 				52A6BE9D2A21A6A600CF1F22 /* AppDelegate.swift */,
 				52A6BE9F2A21A6A600CF1F22 /* SceneDelegate.swift */,
-				52A6BEA12A21A6A600CF1F22 /* ViewController.swift */,
+				52A6BEBD2A21B3CD00CF1F22 /* Networking */,
+				52A6BEB92A21B2A200CF1F22 /* Model */,
+				52A6BEB12A21A7F800CF1F22 /* Controller */,
 				52A6BEA32A21A6A600CF1F22 /* Main.storyboard */,
-				52A6BEA62A21A6A800CF1F22 /* Assets.xcassets */,
 				52A6BEA82A21A6A800CF1F22 /* LaunchScreen.storyboard */,
+				52A6BEA62A21A6A800CF1F22 /* Assets.xcassets */,
 				52A6BEAB2A21A6A800CF1F22 /* Info.plist */,
 			);
 			path = "GEEKS-HomeWork-5-M4";
+			sourceTree = "<group>";
+		};
+		52A6BEB12A21A7F800CF1F22 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52A6BEB62A21AE5A00CF1F22 /* cell */,
+				52A6BEA12A21A6A600CF1F22 /* ViewController.swift */,
+				52A6BEB42A21A83300CF1F22 /* DataViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52A6BEB62A21AE5A00CF1F22 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				52A6BEB72A21AE6F00CF1F22 /* CustomTableViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		52A6BEB92A21B2A200CF1F22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52A6BEBB2A21B2C800CF1F22 /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52A6BEBD2A21B3CD00CF1F22 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				52A6BEBE2A21B3ED00CF1F22 /* ApiManager.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52A6BEAE2A21A6A800CF1F22 /* Build configuration list for PBXNativeTarget "GEEKS-HomeWork-5-M4" */;
 			buildPhases = (
+				EDBB5553FF3DB1E25B8A474B /* [CP] Check Pods Manifest.lock */,
 				52A6BE962A21A6A500CF1F22 /* Sources */,
 				52A6BE972A21A6A500CF1F22 /* Frameworks */,
 				52A6BE982A21A6A500CF1F22 /* Resources */,
+				25C57FAAB976C85272783E66 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,11 +203,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25C57FAAB976C85272783E66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GEEKS-HomeWork-5-M4/Pods-GEEKS-HomeWork-5-M4-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GEEKS-HomeWork-5-M4/Pods-GEEKS-HomeWork-5-M4-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GEEKS-HomeWork-5-M4/Pods-GEEKS-HomeWork-5-M4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDBB5553FF3DB1E25B8A474B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GEEKS-HomeWork-5-M4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52A6BE962A21A6A500CF1F22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A6BEB52A21A83300CF1F22 /* DataViewController.swift in Sources */,
+				52A6BEBC2A21B2C800CF1F22 /* ProductModel.swift in Sources */,
+				52A6BEB82A21AE6F00CF1F22 /* CustomTableViewCell.swift in Sources */,
+				52A6BEBF2A21B3ED00CF1F22 /* ApiManager.swift in Sources */,
 				52A6BEA22A21A6A600CF1F22 /* ViewController.swift in Sources */,
 				52A6BE9E2A21A6A600CF1F22 /* AppDelegate.swift in Sources */,
 				52A6BEA02A21A6A600CF1F22 /* SceneDelegate.swift in Sources */,
@@ -282,6 +398,7 @@
 		};
 		52A6BEAF2A21A6A800CF1F22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DBD84B4E18432C308EE5BC2 /* Pods-GEEKS-HomeWork-5-M4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +427,7 @@
 		};
 		52A6BEB02A21A6A800CF1F22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBBEE3BD9D693ECA6B816C08 /* Pods-GEEKS-HomeWork-5-M4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
